@@ -19,8 +19,8 @@ public class HelloController {
         return "hello, world! Date=" + new Date();
     }
 
-    @GetMapping("china")
-    public String china() {
-        return "hello, china! Date=" + new Date();
-    }
+//    @GetMapping("china")
+//    public String china() {
+//        return "hello, china! Date=" + new Date();
+//    }
 }
